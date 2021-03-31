@@ -25,7 +25,7 @@ abstract class Employee {
 		double local = 0.01 * grossPay;
 		double medicare = 0.03 * grossPay;
 		double socialSecurity = 0.075 * grossPay;
-		return new PayCheck(grossPay, fica, state,local,medicare,socialSecurity,dateRange);
+		return new PayCheck(grossPay, fica, state,local,medicare,socialSecurity,dateRange, this);
 		
 	}
 	
