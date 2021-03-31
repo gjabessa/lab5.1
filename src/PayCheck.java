@@ -27,8 +27,8 @@ public class PayCheck {
 	
 	@Override
 	public String toString() {
-		return "PayCheck [grossPay=" + grossPay + ", fica=" + fica + ", state=" + state + ", local=" + local
-				+ ", medicare=" + medicare + ", socialSecurity=" + socialSecurity + ", payPeriod=" + payPeriod + "]";
+		return "PayCheck [grossPay=$" + grossPay + ", fica=$" + fica + ", state=$" + state + ", local=$" + local
+				+ ", medicare=$" + medicare + ", socialSecurity=$" + socialSecurity + ", payPeriod=" + payPeriod + "]";
 	}
 
 	void getNetPay() {

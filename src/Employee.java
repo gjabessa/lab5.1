@@ -34,6 +34,7 @@ abstract class Employee {
 			paycheck.print();
 		}
 	}
+	
 	abstract double calcGrossPay(DateRange dateRange);
 
 }
