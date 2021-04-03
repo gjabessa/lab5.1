@@ -3,7 +3,7 @@ import java.util.Calendar;
 public class Main {
 
 	public static void main(String[] args) {
-		Employee hourly = new Hourly(7,10);
+		Employee hourly = new Hourly(180,100);
 			
 		hourly.paychecks.add(hourly.calcCompensation(2,2021));
 		hourly.print();
